@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyaa' Iman - AI Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="top-navbar" id="topNavbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Alyaa' Iman</a>
+            </div>
+                <!-- Hamburger -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                <span id="themeIcon">🌙</span>
+            </button>
+
+
+
+            <!-- Clean horizontal nav (no hamburger) -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+                <a href="#work-projects" class="nav-link" data-section="work-projects">Work Projects</a>
+                <a href="#certifications" class="nav-link" data-section="certifications">Certs </a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            
+            </nav>
+
+            <!-- Theme Toggle Button -->
+           
+
+        </div>
+    </header>
+
+
+    <!-- Vertical Navigation Indicator -->
+    <nav class="nav-indicator" id="navIndicator">
+        <div class="nav-dot" data-section="home"></div>
+        <div class="nav-dot" data-section="about"></div>
+        <div class="nav-dot" data-section="skills"></div>
+        <div class="nav-dot" data-section="projects"></div>
+        <div class="nav-dot" data-section="experience"></div>
+        <div class="nav-dot" data-section="work-projects"></div>
+        <div class="nav-dot" data-section="certifications"></div>
+        <div class="nav-dot" data-section="contact"></div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home/Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="hero-wrapper">
+                
+                <div class="hero-avatar-large">
+                    <img src="image/profile-pic.jpg" alt="Alyaa' Iman" class="avatar-image">
+                </div>
+
+                <div class="hero-text-box">
+                    <h1 class="hero-headline">Hello! Alyaa here!</h1>
+                    <p class="hero-subheadline">
+                        Diploma in AAI Student (Temasek Polytechnic, Graduating 2026)
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About Me Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        Hello! I’m Alyaa’, currently in my third year pursuing a <strong>Diploma in Applied Artificial Intelligence at Temasek Polytechnic</strong>, graduating in <strong>May 2026</strong>.
+                        My interest in technology began with understanding how digital systems shape everyday experiences—from mobile apps to automated business processes.
+                        Over time, this curiosity grew into a passion for <strong>AI, automation, and mobile applications</strong>, especially in areas where technology can improve efficiency and reduce manual work.
+                    </p>
+                    <p class="about-text">
+                        I am presently interning at <strong>Mandai Wildlife Group</strong> as an <strong>Innovation &amp; Technology Management Associate Trainee</strong>, where I support digital transformation, develop automation solutions, and help teams adopt AI tools such as Microsoft Copilot.
+                        I also create internal resources such as AI newsletters and prompt libraries to support organisation-wide AI literacy.
+                        I’m driven by building <strong>practical, user-centric solutions</strong> and continually expanding my skills to design systems that are impactful, intuitive, and sustainable.
+                        Outside work, I enjoy <strong>reading, running, watching films</strong>, and expressing creativity through <strong>design and idea-building</strong>.
+                    </p>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-number">3+</div>
+                            <div class="metric-label">Years Coding</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-number">4</div>
+                            <div class="metric-label">Major Projects</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-number">1</div>
+                            <div class="metric-label">Internship</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Frontend</h3>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="80"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Backend</h3>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">REST API Development</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="80"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Other Technical Skills -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Other Technical Skills</h3>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">Machine &amp; Deep Learning</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="60"></div>
+                            </div>
+                            <p class="skill-note">Used in the Deep Learning Flower Recognition project (transfer learning, tuning, evaluation).</p>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">Mobile App Development (Flutter)</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="80"></div>
+                            </div>
+                            <p class="skill-note">Built Fippit, a multi-screen marketplace app.</p>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">AWS Cloud Services</span>
+                                <span class="skill-percentage">50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="50"></div>
+                            </div>
+                            <p class="skill-note">Used S3, Lambda, API Gateway, RDS, Rekognition, SNS, Secrets Manager for ManuScan.</p>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">Microsoft Power Platform</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="90"></div>
+                            </div>
+                            <p class="skill-note">Built internal apps with Power Apps &amp; Power Automate.</p>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">RPA (UiPath)</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" data-percentage="60"></div>
+                            </div>
+                            <p class="skill-note">Created resume-processing automations with APIs &amp; Excel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/image/UiPath.png" alt="RecruiteRite RPA">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">RecruiteRite — Robotic Process Automation</h3>
+                            <p class="project-tools"><strong>Tools:</strong> UiPath, HuggingFace API, Excel</p>
+                            <p class="project-summary">
+                                Automated resume extraction and summarisation workflows that retrieve emails, parse PDF attachments,
+                                and generate structured candidate reports with API-powered insights and auto-generated Excel outputs.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">RPA</span>
+                                <span class="tag">Automation</span>
+                                <span class="tag">AI APIs</span>
+                            </div>
+                            <p class="project-outcome"><em>Outcome:</em> Reduced manual resume screening time significantly.</p>
+                            <div class="project-links">
+                                <a href="https://youtu.be/PMCrVh3DQvU" target="_blank" class="project-link">See Demo</a>
+                                <a href="/assets/RPA-slides.pdf" class="project-link" target="_blank">View Slides</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/image/AWS.png" alt="ManuScan Tire Quality">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">CTAI — ManuScan Tire Quality Check</h3>
+                            <p class="project-tools"><strong>Tools:</strong> AWS S3, Lambda, API Gateway, RDS, Rekognition, SNS</p>
+                            <p class="project-summary">
+                                Developed a full-stack cloud workflow to analyse tire defects via AWS Rekognition, backed by Lambda functions,
+                                secure CRUD operations in MySQL RDS, and SNS notifications for defect alerts, all surfaced through an S3-hosted frontend.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">AWS</span>
+                                <span class="tag">Rekognition</span>
+                                <span class="tag">Serverless</span>
+                            </div>
+                            <p class="project-outcome"><em>Outcome:</em> Delivered a real-time inspection pipeline with secure cloud infrastructure.</p>
+                            <div class="project-links">
+                                <a href="https://youtu.be/9FvRmOkTeyg" target="_blank" class="project-link">See Demo</a>
+                                <a href="/assets/CTAI-slides.pdf" class="project-link" target="_blank">View Slides</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/image/Flutter.png" alt="FiPPit Mobile App">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">MBAP — Fippit Marketplace App</h3>
+                            <p class="project-tools"><strong>Tools:</strong> Flutter, Firebase / Local Storage</p>
+                            <p class="project-summary">
+                                Built a mobile app for buying and exchanging pre-loved items with login, registration, product listings,
+                                exchange forms, inbox, and profile views—all integrated with Google APIs and intuitive navigation flows.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Mobile UX</span>
+                            </div>
+                            <p class="project-outcome"><em>Outcome:</em> Produced a working prototype with multiple interactive screens.</p>
+                            <div class="project-links">
+                                <a href="https://youtu.be/J9X2Z2fevjY" target="_blank" class="project-link">See Demo</a>
+                                <a href="/assets/MBAP-docs.pdf" class="project-link" target="_blank">View Slides</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/image/DLOR.png" alt="Flower Recognition">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">DLOR — Deep Learning Flower Recognition</h3>
+                            <p class="project-tools"><strong>Tools:</strong> TensorFlow, Keras, MobileNet, Xception</p>
+                            <p class="project-summary">
+                                Built and tuned transfer-learning models (ResNet50, VGG19, MobileNet, Xception) achieving 92.87% accuracy,
+                                then deployed the classifier into Android Studio with confidence thresholds for real-time mobile inference.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">Mobile ML</span>
+                                <span class="tag">Transfer Learning</span>
+                            </div>
+                            <p class="project-outcome"><em>Outcome:</em> Delivered a high-accuracy model with Android deployment.</p>
+                            <div class="project-links">
+                                <a href="/assets/DLOR-slides.pdf" class="project-link" target="_blank">View Slides</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship / Experience Section -->
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <h2 class="section-title">Internship / Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Apr 2025 – Apr 2026</div>
+                            <h3 class="timeline-company">Mandai Wildlife Group</h3>
+                            <h4 class="timeline-role">Innovation &amp; Technology Management Associate Trainee</h4>
+                            <ul class="timeline-accomplishments">
+                                <li>Part of the Transformation Office supporting organisation-wide innovation and digital adoption.</li>
+                                <li>Identify opportunities to streamline manual processes and translate them into low-code solutions.</li>
+                                <li>Build Power Apps and Power Automate workflows that improve operational efficiency and engagement.</li>
+                                <li>Enable AI adoption across departments via workshops, prompt libraries, interviews, and newsletters.</li>
+                                <li>Assist with UX research, content creation, and cross-team project coordination.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Projects Section -->
+        <section id="work-projects" class="section work-projects-section">
+            <div class="container">
+                <h2 class="section-title">Work Projects</h2>
+                <div class="work-projects-grid">
+                    <div class="work-project-card">
+                        <h3 class="work-project-title">Developing workflows using Power Automate</h3>
+                        <p class="work-project-description">Designed automated flows for approvals, notifications, data routing, and time-saving processes that reduce manual follow-ups.</p>
+                        <div class="work-project-tech">
+                            <span class="tech-tag">Power Automate</span>
+                            <span class="tech-tag">Process Design</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                    </div>
+                    <div class="work-project-card">
+                        <h3 class="work-project-title">Building internal mobile apps using Power Apps</h3>
+                        <p class="work-project-description">Created and deployed Power Apps for operational efficiency, enabling staff engagement through intuitive mobile-ready experiences.</p>
+                        <div class="work-project-tech">
+                            <span class="tech-tag">Power Apps</span>
+                            <span class="tech-tag">UX</span>
+                            <span class="tech-tag">Low-code</span>
+                        </div>
+                    </div>
+                    <div class="work-project-card">
+                        <h3 class="work-project-title">Creating Copilot newsletters &amp; AI education resources</h3>
+                        <p class="work-project-description">Produce monthly content featuring AI tips, prompt libraries, and success stories to encourage daily Copilot adoption.</p>
+                        <div class="work-project-tech">
+                            <span class="tech-tag">Comms</span>
+                            <span class="tech-tag">AI Enablement</span>
+                            <span class="tech-tag">Knowledge Sharing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Education Information Section -->
+        <section id="certifications" class="section certifications-section">
+            <div class="container">
+                <h2 class="section-title">Certification & Information</h2>
+                <div class="certifications-table">
+
+                    <div class="cert-table-header">
+                        <div>Icon</div>
+                        <div>Certification / Participation</div>
+                        <div>Issuing Organization</div>
+                        <div>Date</div>
+                    </div>
+
+                    <div class="cert-table-row">
+                        <div class="cert-table-cell">🤖</div>
+                        <div class="cert-table-cell">
+                            <a href="https://www.coursera.org/account/accomplishments/specialization/6J3ZEONK3VGO" target="_blank" class="cert-link">
+                                Google AI Essentials
+                            </a>
+                        </div>
+                        <div class="cert-table-cell">Google (Coursera)</div>
+                        <div class="cert-table-cell">Sep 2025</div>
+                    </div>
+
+                    <div class="cert-table-row">
+                        <div class="cert-table-cell">🤖</div>
+                        <div class="cert-table-cell">
+                            <a href="https://www.credly.com/badges/18139a5e-8fd8-4ebd-ba69-b43628f1de6c/linked_in_profile" target="_blank" class="cert-link">
+                                Google Prompting Essentials
+                            </a>
+                        </div>
+                        <div class="cert-table-cell">Google (Coursera)</div>
+                        <div class="cert-table-cell">Sep 2025</div>
+                    </div>
+
+                    <div class="cert-table-row">
+                        <div class="cert-table-cell">☁️</div>
+                        <div class="cert-table-cell">
+                            <a href="https://www.credly.com/badges/23ab70ff-cbb0-4da1-8e7e-f0c73431a6b9/linked_in_profile" target="_blank" class="cert-link">
+                                Introduction to Modern AI
+                            </a>
+                        </div>
+                        <div class="cert-table-cell">Cisco</div>
+                        <div class="cert-table-cell">Jun 2025</div>
+                    </div>
+
+                    <div class="cert-table-row">
+                        <div class="cert-table-cell">☁️</div>
+                        <div class="cert-table-cell">
+                            <a href="https://www.credly.com/badges/bffdba5a-f0c9-4fa2-b49b-d3ed2a0163e1/linked_in_profile" target="_blank" class="cert-link">
+                                Python Essentials 1
+                            </a>
+                        </div>
+                        <div class="cert-table-cell">Cisco</div>
+                        <div class="cert-table-cell">May 2025</div>
+                    </div>
+
+                    <div class="cert-table-row">
+                        <div class="cert-table-cell">📚</div>
+                        <div class="cert-table-cell">
+                           <a href="/assets/CCARecords.pdf" target="_blank" class="cert-link">
+                                CCA Records (View PDF)
+                            </a>
+
+                        </div>
+                        <div class="cert-table-cell">Temasek Polytechnic</div>
+                        <div class="cert-table-cell">2023–2025</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section (Footer Style) -->
+        <footer id="contact" class="contact-footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p class="footer-text">Let's connect!</p>
+                    <div class="footer-icons">
+                        <a href="https://www.linkedin.com/in/alyaa-iman-71bb83272/" target="_blank" rel="noopener noreferrer" class="footer-icon" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:alyaaiman24@gmail.com" class="footer-icon" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <p class="footer-copyright">© 2024 Alyaa' Iman. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
